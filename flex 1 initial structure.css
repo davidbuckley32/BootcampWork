@@ -1,0 +1,40 @@
+/* This is a sample file that shows how to set up the basics of flex. Made by me on 5/18. */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body * {
+    outline: 1px solid pink;
+}
+
+div.wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 980px;
+    height: 1000px;
+    background-color: navy;
+    margin: 0px auto;
+}
+
+    div.wrapper header {
+        background-color: red;
+        flex-grow: 1;
+    }
+
+    div.wrapper section.mainPhoto {
+        background-color: orange;
+        flex-grow: 1;
+    }
+
+    div.wrapper section.boxes {
+        background-color: yellow;
+        flex-grow: 1;
+    }
+
+    div.wrapper footer {
+        background-color: green;
+        flex-grow: 1;
+    }

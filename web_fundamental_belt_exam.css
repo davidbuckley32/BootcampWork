@@ -1,0 +1,184 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body * {
+    /* outline: 1px solid pink; */
+}
+
+div.wrapper {
+    max-width: 885px;
+    max-height: 1280px;
+    margin: 0px auto;
+    padding: 7px;
+    background-color: #1a1a1a;
+}
+
+    div.wrapper header {
+        
+    }
+
+        div.wrapper header div#topHeader{
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        div.wrapper header div#topHeader h5{
+            color: white;
+            padding-top: 10px;
+            /* flex: 5;  why don't I need this? */
+        }
+
+        div.wrapper header div#topHeader img {
+            /* flex: 2; */
+        }
+        
+        div.wrapper header nav {
+            color: gray;
+            background-image: linear-gradient(#525252, #242424);
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+            div.wrapper header nav ul {
+                list-style-type: none;
+                display: flex;
+                justify-content: flex-start;
+                flex: 11;
+            }
+
+                div.wrapper header nav ul li {
+                    min-width: 10px;
+                    padding: 10px 20px;
+                }
+
+                    div.wrapper header nav ul li span#paintItWhite {
+                        color: white;
+                    }
+
+    div.wrapper div.main {
+        display: flex;
+        flex-flow: column nowrap;
+        color: white;
+    }
+
+        div.wrapper div.main div.firstFifth {
+            width: 100%;
+            flex: 1;
+        }
+
+            div.wrapper div.main div.firstFifth img {
+                width: 100%;
+                padding-top: 0px;
+                padding-bottom: 0px;
+                border-bottom: 2px solid rgb(75, 65, 65);
+            }
+
+
+        div.wrapper div.main div.secondFifth {
+            flex: 1;
+            background-color: #1a1a1a;
+            padding: 25px 0px;
+        }
+
+            div.wrapper div.main div.secondFifth div#secondFifthInternal {
+                display: flex;
+                flex-flow: row nowrap;
+            }
+
+            div.wrapper div.main div.secondFifth div#secondFifthInternal img {
+                padding: 0px 10px;
+                width: 30px;
+                height: 30px;
+            }
+
+            div.wrapper div.main div.secondFifth div#secondFifthInternal span {
+                padding: 0px 10px;
+            }
+
+            div.wrapper div.main div.secondFifth div#secondFifthInternal span h4 {
+                color: #d16d26;
+                padding: 0px 5px;
+            }
+
+            div.wrapper div.main div.secondFifth div#secondFifthInternal span h6 {
+                color: #afb8b0;
+            }
+
+        div.wrapper div.main div.thirdFifth {
+            padding: 0 10px;
+            flex: 1;
+            display: flex;
+            flex-flow: row nowrap;
+            color: white;
+            background-color: black;
+        }
+
+            div.wrapper div.main div.thirdFifth span{
+                flex: 3;
+            }
+
+            div.wrapper div.main div.thirdFifth span h6 {
+                color: #afb8b0;
+            }
+
+            div.wrapper div.main div.thirdFifth button {
+                flex: 1;
+                color: white;
+                background-color: #ef8936;
+                border: none;
+                border-radius: 15px;
+                width: auto;
+                margin: 20px 50px;
+                padding: 10px 0px;
+            }
+
+        div.wrapper div.main div#fourthFifth {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: space-between;
+        }
+
+            div.wrapper div.main div#fourthFifth span {
+                display: flex;
+                flex-flow: row nowrap;
+            }
+
+                div.wrapper div.main div#fourthFifth span h4 {
+                    min-width: 625px;
+                    color: white;
+                }
+
+                div.wrapper div.main div#fourthFifth span h6 {
+                    min-width: 175px;
+                    color: #ef8936;
+                }
+
+        div.wrapper div.main div#finalFifth {
+            background-color: #1a1a1a;
+        }
+
+        div.wrapper div.main div#finalFifth nav#portfolio {
+                width: auto;
+                display: flex;
+                flex-flow: row nowrap;
+            }
+
+            div.wrapper div.main div#finalFifth nav#portfolio span h4 {
+                    color: #ef8936;
+                }
+
+            div.wrapper div.main div#finalFifth nav#portfolio span h4, h6, img {
+                    padding: 10px 5px;
+                }
+
+    div.wrapper footer {
+        color: gray;
+        text-align: right;
+
+    }

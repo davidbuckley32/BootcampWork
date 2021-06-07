@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body * {
+    outline: 1px solid pink;
+}
+
+.main {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #b9936c;
+    max-width: 900px;
+}
+.topThird {
+    margin: 0px;
+    padding: 0px;
+    flex: 1;
+}
+
+.midThird {
+    margin: 0px;
+    padding: 0px;
+    flex: 3;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.midThird img {
+    flex: 1;
+    max-width: 900px;
+}
+
+.bottomThird {
+    flex: 1;
+}

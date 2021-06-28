@@ -12,4 +12,8 @@ def create(request):
 def show(request, number):
     number = str(number)
     return HttpResponse("placeholder to display blog number " + number)
+
+def edit(request, number):
+    number = str(number)
+    return HttpResponse("placeholder to edit blog number " + number)
 # Create your views here.

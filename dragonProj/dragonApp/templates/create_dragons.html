@@ -8,8 +8,9 @@
 </head>
 <body>
     <h1>Create a Dragon</h1>
-    <form action="/dragons" method="POST">
+    <form action="/dragons" method="POST"> <!--submitting the form takes us to /dragons-->
         { %csrf_token %}
+        <input type="text" value="dragon_name">
         <input type="submit" value="Make a Dragon">
     </form>
 </body>

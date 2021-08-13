@@ -7,6 +7,7 @@ sixthText = "This is the sixth sentence that I am typing in Python."
 seventhText = "This is the seventh sentence that I am typing in Python."
 eigthText = "This is the seventh sentence that I am typing in Python."
 ninthText = "This is the ninth sentence that I am typing in Python."
+tenthText = "This is the tenth sentence that I am typing in Python."
 print(firstText)
 print(secondText)
 print(thirdText)
@@ -16,3 +17,4 @@ print(sixthText)
 print(seventhText)
 print(eigthText)
 print(ninthText)
+print(tenthText)
